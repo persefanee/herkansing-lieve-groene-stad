@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 0;
+}
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 0.3125em;
+  }
+  
+  div.scroll-container img {
+    padding: 0.3125em;
+    display: inline-block;
+    width: 15em;
+    border-radius: 0.625em;
+  }
+
+main p {
+    text-align: justify;
+}
+
+.navbar {
+    width: 85%;
+    margin: -0.125em;
+    padding: 0.125em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5em;
+    cursor: pointer;
+}
+
+.foto {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.625em;
+}
+
+header {
+    background-color: #FF4F37;
+    padding: 0.5em 1em 0.1em 1em;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0.125em;
+}
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 0.625em;
+}
+
+main {
+    padding: 1.25em;
+}
+
+footer {
+    background-color: #2FB99F;
+    padding: 1.25em;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul li {
+    margin: 0.625em 0;
+}
+
+header nav li a {
+    display: block;
+    padding: 0.625em;
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+.button {
+    width: 12.5em;
+    padding: 0.9375em 0;
+    text-align: center;
+    margin: 1.25em 0.625em;
+    border-radius: 0.9375em;
+    font-weight: bold;
+    border: 0.125em solid #FF4F37;
+    background: #EFF3F2;
+    cursor: pointer;
+}
+
+main div a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon {   
+    float: right;
+    width: 6.25em;
+    height: 6.25em;
+    padding-top: 1em;
+    padding-left: 6em;
+}
+
+.headerblog {
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 0.5em;
+    margin: 0;    
+    justify-content: left;
+    float: left;
+    display: flex;
+    color: #95c11f;
+}
+
+.wrapper{
+    display: flex
+}
